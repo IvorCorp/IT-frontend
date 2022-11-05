@@ -1,0 +1,11 @@
+{
+"name":"IvorTech",
+"short_name":"IvorTech",
+"background_color":"#212121",
+"display":"minimal-ui",
+"start_url":"/",
+"scope":"/",
+"theme_color":"#10A8D9",
+"related_applications":[],
+"capture_links":"none",
+}
