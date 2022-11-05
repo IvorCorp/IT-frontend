@@ -1,15 +1,12 @@
 Options All -Indexes
-ErrorDocument 400 /errores/
-ErrorDocument 401 /errores/
-ErrorDocument 403 /errores/
-ErrorDocument 404 /errores/
-ErrorDocument 405 /errores/
-ErrorDocument 408 /errores/
-ErrorDocument 414 /errores/
-ErrorDocument 500 /errores/
-ErrorDocument 502 /errores/
-ErrorDocument 504 /errores/
+ErrorDocument 400 /errores/index.html
+ErrorDocument 401 /errores/index.html
+ErrorDocument 403 /errores/index.html
+ErrorDocument 404 /errores/index.html
+ErrorDocument 405 /errores/index.html
+ErrorDocument 408 /errores/index.html
+ErrorDocument 414 /errores/index.html
+ErrorDocument 500 /errores/index.html
+ErrorDocument 502 /errores/index.html
+ErrorDocument 504 /errores/index.html
 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^ivortech.com.ar [NC]
-RewriteRule ^(.*)$ http://www.ivortech.com.ar/$1 [L,R=301,NC]
