@@ -1,0 +1,15 @@
+Options All -Indexes
+ErrorDocument 400 /errores/
+ErrorDocument 401 /errores/
+ErrorDocument 403 /errores/
+ErrorDocument 404 /errores/
+ErrorDocument 405 /errores/
+ErrorDocument 408 /errores/
+ErrorDocument 414 /errores/
+ErrorDocument 500 /errores/
+ErrorDocument 502 /errores/
+ErrorDocument 504 /errores/
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ivortech.com.ar [NC]
+RewriteRule ^(.*)$ http://www.ivortech.com.ar/$1 [L,R=301,NC]
