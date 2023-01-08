@@ -1,2 +1,1 @@
-!function(){var t,e;$(".countdown").downCount({date:((t=new Date).setDate(t.getDate()+10),e=t.getDate(),t.getMonth()+1+"/"+e+"/"+t.getFullYear()+" 12:00:00"),offset:0})}();
-console.log(t.getDate()+10);
+!function(){var t,e;$(".countdown").downCount({date:((t=new Date).setDate("12/24/2012 12:00:00"),e=t.getDate(),t.getMonth()+1+"/"+e+"/"+t.getFullYear()+" 12:00:00"),offset:0})}();
