@@ -1,0 +1,1 @@
+!function(){var t,e;$(".countdown").downCount({date:((t=new Date).setDate("Sun Jan 16 2023 16:44:21 GMT-0300 (Argentina Standard Time)"),e=t.getDate(),t.getMonth()+1+"/"+e+"/"+t.getFullYear()+" 12:00:00"),offset:0})}();
