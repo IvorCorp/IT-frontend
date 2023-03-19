@@ -1,90 +1,414 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="IvorTech Hosting es una agencia de hosting enfocada en redes, desarrollo y programación.">
-    <meta name="author" content="Ivor Corporation - ivortech@ivorcorp.com.ar">
-    <meta name="keywords" content="IvorTech, Hosting, contacto, blog, proyectos, ivor, tech, corp, redes, web, agencia">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>IvorTech Hosting | Proximamente</title>
-
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link href="/assets/css/feather.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-icons.css" rel="stylesheet" />
-    <link href="/assets/css/materialdesignicons.min.css" rel="stylesheet" />
-    <link href="/assets/css/simplebar.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/theme.min.css">
-    <link rel="manifest" href="/assets/manifest.webmanifest">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/libs.bundle.css" />
+    <link rel="stylesheet" href="/assets/css/index.bundle.css" />
+  
+    <title>IvorTech Hosting</title>
   </head>
+  <body>
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+      <div class="container">
+        <a href="/" class="navbar-brand"><img src="/assets/images/logo/logo-light.svg" alt="Logo"></a>
 
-  <body class="bg-white">
-    <main>
-      <section class="container d-flex flex-column">
-        <div class="row">
-            <div class="offset-xl-1 col-xl-2 col-lg-3 col-md-12 col-12">
-                <div class="mt-4">
-                  <a href="/"><img src="/assets/images/logo.png" alt="" class="logo-inverse"></a>
+        <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+          <li class="nav-item d-lg-none">
+            <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+              aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="bi bi-list"></span>
+            </a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a href="https://panel.ivortech.com.ar/"
+              class="btn btn-outline-white rounded-pill ms-2">
+              Login
+            </a>
+          </li>
+        </ul>
+  
+        <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
 
-                  <div class="form-check form-switch theme-switch d-none ">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="row align-items-center justify-content-center g-0 py-lg-22 py-10">
-          <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-12 col-12 text-center text-lg-start">
-            <h1 class="display-3 mb-2 fw-bold">IvorTech Hosting</h1>
-            <p class="mb-4 fs-4">El sitio esta en remodelación, próximamente nuevas funcionalidades!</p>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link dropdown-toggle" href="/minecraft/" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Minecraft
+              </a>
+            </li>
 
-            <div class="countdown">
-              <ul class="list-inline">
-                <li class="list-inline-item me-md-5">
-                    <span class="days display-4 fw-bold  text-primary">OO</span>
-                    <p class="fs-4 mb-0">Days</p>
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link dropdown-toggle" href="/ghosting/" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Games Hosting
+              </a>
+            </li>
+
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link dropdown-toggle" href="/dhosting/" id="navbarDropdown-3" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" data-bs-auto-close="outside">
+                Discord Hosting
+              </a>
+            </li>
+
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link dropdown-toggle" href="/vhosting/" id="navbarDropdown-4" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" data-bs-auto-close="outside">
+                VPS
+              </a>
+            </li>
+
+            <li class="nav-item dropdown dropdown-hover">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-5" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Soporte
+              </a>
+              <ul class="dropdown-menu dropdown-menu-detailed" aria-labelledby="navbarDropdown-5">
+                <li><a class="dropdown-item " href="https://discord.gg/fbSKCHwk2y">
+                    <span>
+                    <i class="bi bi-discord"></i>
+                      Discord
+                      <small>Compras y asistencia</small>
+                    </span>
+                  </a>
                 </li>
-                <li class="list-inline-item me-md-5">
-                    <span class="hours display-4 fw-bold text-primary">OO</span>
-                    <p class="fs-4 mb-0">Hours</p>
-
-                </li>
-                <li class="list-inline-item me-md-5">
-                    <span class="minutes display-4 fw-bold text-primary ">OO</span>
-                    <p class="fs-4 mb-0">Minutes</p>
-
-                </li>
-                <li class="list-inline-item me-md-5">
-                    <span class="seconds display-4 fw-bold text-primary ">OO</span>
-                    <p class="fs-4 mb-0">Seconds</p>
-
+                <li><a class="dropdown-item "
+                    href="/contacto/">
+                    <span>
+                    <i class="bi bi-person-lines-fill"></i>
+                      Contacto
+                      <small>Formulario WEB</small>
+                    </span>
+                  </a>
                 </li>
               </ul>
-            </div>
-            <hr class="my-4">
+            </li>
+            <li class="nav-item d-lg-none">
+              <a href="https://panel.ivortech.com.ar/"
+                class="nav-link text-primary">Login</a>
+            </li>
+          </ul>
+        </div>
+  
+    </div>
+  </nav>
+
+  <section class="overflow-hidden bg-black" data-aos="fade-in">
+    <div class="d-flex flex-column py-20 container foreground min-vh-100">
+      <div class="row align-items-center justify-content-center justify-content-lg-between my-auto">
+        <div class="col-md-10 col-lg-6 col-xl-7 inverted mb-5 mb-lg-0 text-center text-lg-start">
+          <h1 class="lh-sm text-white mb-4">EL MEJOR HOSTING PARA TUS PROYECTOS</h1>
+          <p class="lead text-secondary mb-4">Alto rendimiento para todos tus proyectos al mejor precio del mercado!</p>
+          <div class="d-inline-flex align-items-center mb-0">
+            <span class="fs-2 me-2 lh-1 fw-bold">4.9</span>
+            <ul class="rating text-yellow me-3 fs-5">
+              <li><i class="bi bi-star-fill"></i></li>
+              <li><i class="bi bi-star-fill"></i></li>
+              <li><i class="bi bi-star-fill"></i></li>
+              <li><i class="bi bi-star-fill"></i></li>
+              <li><i class="bi bi-star-fill"></i></li>
+            </ul>
           </div>
-            <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-12 col-12 mt-8 mt-lg-0">
-              <img src="/assets/images/fondo.webp" alt="" class="w-100" />
+          <small class="d-block text-muted">Based on reviews.</small>
+        </div>
+        <div class="col-md-10 col-lg-6 col-xl-5" data-aos="fade-up">
+          <div class="card bg-opaque-black">
+            <div class="card-body">
+              <img src="/assets/img/steve.png" alt="steve">
             </div>
           </div>
-          <div class="row">
-            <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-12">
-                <div class="row align-items-center mt-6">
-                    <div class="col-md-6 col-8">
-                      <p class="mb-0">© IvorCorp. 2023 IvorTech Hosting.</p>
-                    </div>
+        </div>
+      </div>
+    </div>
+    <figure class="background background-overlay" style="background-image: url('./assets/img/background.png')"
+      data-top-top="transform: scale(1);" data-top-bottom="transform: scale(1.1);"></figure>
+  </section>
+
+  <section class="py-15 py-xl-20 overflow-hidden">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6">
+        <div class="col-md-10 col-lg-5 position-relative" data-aos='fade-up'>
+          <div class="equal-1-1 rounded-circle">
+            <figure class="background" style="background-image: url('./assets/img/be.png')"></figure>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="accordion accordion-steps" id="accordion-steps" style="--bs-primary: #1d4b40;">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-steps-1">
+                <button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-steps-1" aria-expanded="false" aria-controls="collapse-steps-1">
+                  Priorizamos a nuestros clientes
+                </button>
+              </h2>
+              <div id="collapse-steps-1" class="accordion-collapse collapse" aria-labelledby="heading-steps-1"
+                data-bs-parent="#accordion-steps">
+                <div class="accordion-body">
+                  <p class="text-secondary">Contamos con los mejores precios de todo el mercado, incluimos pruebas gratuitas de nuestros servicios y emitimos reembolsos hasta 30 dias despues de adquirir un servicio.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-steps-2">
+                <button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-steps-2" aria-expanded="false" aria-controls="collapse-steps-2">
+                  Cuidamos el medio ambiente
+                </button>
+              </h2>
+              <div id="collapse-steps-2" class="accordion-collapse collapse" aria-labelledby="heading-steps-2"
+                data-bs-parent="#accordion-steps">
+                <div class="accordion-body">
+                  <p class="text-secondary">Nuestro objetivo es utilizar energia solar para mantener toda nuestra infraestructura, reduciendo costes y protejiendo el medio ambiente!</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-steps-3">
+                <button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse-steps-3" aria-expanded="false" aria-controls="collapse-steps-3">
+                  Servicios de calidad
+                </button>
+              </h2>
+              <div id="collapse-steps-3" class="accordion-collapse collapse" aria-labelledby="heading-steps-3"
+                data-bs-parent="#accordion-steps">
+                <div class="accordion-body">
+                  <p class="text-secondary">Nuestra tecnologia de optimizacion permite al usuario utilizar nuestros servicios con la mejor latencia y eficiencia!</p>
+                </div>
               </div>
             </div>
           </div>
-      </section>
-    </main>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/libs/simplebar/dist/simplebar.min.js"></script>
-    <script src="/assets/js/theme.min.js"></script>
-    <script src="/assets/js/vendors/jquery.downCount.min.js"></script>
-    <script src="/assets/js/vendors/countdown.js"></script>
+  <section class="py-15 py-xl-20 bg-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-center justify-content-lg-between">
+        <div class="col-md-10 col-lg-6 mb-5 mb-lg-0">
+          <h2 class="lh-sm mb-5">Administrar tu servidor nunca fue tan facil!</h2>
+          <div class="row g-2">
+            <div class="col-md-6">
+              <ul class="list-group list-group-minimal">
+                <li class="list-group-item d-flex align-items-center mb-1">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Consola, control de estado
+                </li>
+                <li class="list-group-item d-flex align-items-center mb-1">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Monitor de Recursos
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  24/7 Disponibilidad
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Acceso SFTP Completo
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Editor web de archivos
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-group list-group-minimal">
+                <li class="list-group-item d-flex align-items-center mb-1">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Subdominios <span class="badge bg-green rounded-pill ms-2">New</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center mb-1">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Seguridad F2A 
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  5 Bases de Datos Gratis
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  Acceso a subusuarios
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <div class="icon-box icon-box-sm bg-opaque-green rounded-circle me-2"><i
+                      class="bi bi-check2 text-green"></i>
+                  </div>
+                  API para desarrolladores
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-5 position-relative" data-aos='fade-up'>
+          <div class="equal-1-1 rounded-circle">
+            <figure class="background" style="background-image: url('./assets/img/test.webp')"></figure>
+          </div>
+          <img class="position-absolute bottom-0 start-0 rotate" src="./assets/img/featured.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </body>
+  <!-- pricing -->
+  <section class="py-15 py-xl-20">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 mb-6">
+          <h2 class="fw-bold mb-1">Ahorra dinero con nuestros planes y compras anuales!</h2>
+        </div>
+      </div>
+      <div class="row g-3 g-xl-5 align-items-end">
+        <div class="col-lg-4" data-aos="fade-up">
+          <div class="card bg-purple inverted">
+            <div class="card-body">
+              <h2 class="h1 mb-4">Desde $3</h2>
+              <p class="text-secondary fs-lg mb-4">Encuentra tu plan ideal para tu servidor de minecraft!</p>
+              <ul class="list-unstyled mb-4">
+                <li class="py-1">Desde 2GB</li>
+                <li class="py-1">Uptime 99.95%</li>
+                <li class="py-1">Sin limitaciones</li>
+              </ul>
+              <div class="d-grid">
+                <a href="https://discord.gg/S2p7xQ5A"
+                  class="btn btn-outline-white btn-lg btn-with-icon rounded-pill">Crear Ticket (
+                    DC
+                  ) <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0 separated">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="h1 mb-4">Desde $3.5</h2>
+                  <p class="text-secondary fs-lg mb-4">Crea un servidor para tus amigos o comunidad, sin preocuparte por cual sea el juego!</p>
+                  <ul class="list-unstyled mb-4">
+                    <li class="py-1">Desde 2GB</li>
+                    <li class="py-1">Soporte a todos los juegos</li>
+                    <li class="py-1">Acceso completo</li>
+                  </ul>
+                  <div class="d-grid">
+                    <a href="https://discord.gg/S2p7xQ5A"
+                      class="btn btn-outline-green btn-lg btn-with-icon rounded-pill">Crear Ticket ( DC )<i
+                        class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="h1 mb-4">Desde $8</h2>
+                  <p class="text-secondary fs-lg mb-4">Necesitas una VPS para administrar todos tus proyectos? Encuentra tu plan ideal</p>
+                  <ul class="list-unstyled mb-4">
+                    <li class="py-1">Desde 4GB</li>
+                    <li class="py-1">IP Dedicada</li>
+                    <li class="py-1">Full Access</li>
+                  </ul>
+                  <div class="d-grid">
+                    <a href="https://discord.gg/S2p7xQ5A"
+                      class="btn btn-outline-green btn-lg btn-with-icon rounded-pill">Crear Ticket ( DC )<i
+                        class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-purple py-15 py-xl-20 mx-xl-3 overflow-hidden">
+    <div class="container level-3">
+      <div class="row">
+        <div class="col-lg-8 col-xl-6 inverted text-center text-lg-start">
+          <h2 class="h1 mb-0">Aun no estas convencido?</h2>
+          <p class="lead text-secondary my-4">Si aun crees que IvorTech Hosting no es ideal para tus proyectos solicita una prueba gratuita y sumate!</p>
+          <a href="" class="btn btn-outline-white btn-lg btn-with-icon rounded-pill">Solicitar prueba gratuita <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <figure class="background background-gradient-horizontal background-parallax"
+      style="background-image: url('./assets/img/ftest.webp')" data-bottom-top="transform: translateY(0%);"
+      data-top-bottom="transform: translateY(20%);">
+    </figure>
+  </section>
+
+  <footer class="bg-black text-white py-15 py-xl-5 border-top">
+    <div class="container">
+      <div class="row g-4 g-lg-5 mb-10">
+
+        <div class="col-md-2 text-center text-md-start">
+          <a href="/" class="navbar-brand"><img src="./assets/img/logo.png" alt="Logo"></a>
+        </div>
+
+        <div class="col-md-2 col-lg-5 text-center text-md-start">
+          <ul class="list-unstyled">
+            <li class="mb-1"><a href="/minecraft/" class="text-reset text-primary-hover">Minecraft</a></li>
+            <li class="mb-1"><a href="/ghosting/" class="text-reset text-primary-hover">Game Hosting</a></li>
+            <li class="mb-1"><a href="/dhosting/" class="text-reset text-primary-hover">Discord Hosting</a></li>
+            <li class="mb-1"><a href="/vhosting/" class="text-reset text-primary-hover">VPS</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 col-lg-5 text-md-start">
+          <ul class="list-unstyled">
+            <li class="mb-1"><a href="/terms.pdf" class="text-reset text-primary-hover">Terminos de servicio</a></li>
+            <li class="mb-1"><a href="/priv.pdf" class="text-reset text-primary-hover">Politicas de Privacidad</a></li>
+            <li class="mb-1"><a href="/contacto/" class="text-reset text-primary-hover">Contacto</a></li>
+            <li class="mb-1"><a href="/nosotros/" class="text-reset text-primary-hover">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row align-items-center g-1 g-lg-6 text-muted">
+        <div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start">
+          <ul class="list-inline small">
+            <li class="list-inline-item"><a href="https://www.instagram.com/ivortech.services/" class="text-reset text-primary-hover">Instagram</a></li>
+            <li class="list-inline-item ms-1"><a href="https://discord.gg/S2p7xQ5A" class="text-reset text-primary-hover">Discord</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+          <span class="small">Un producto de IvorCorp</span>
+        </div>
+        <div class="col-lg-3 order-lg-1 text-center text-md-start">
+          <p class="small">Copyrights © 2023</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- javascript -->
+  <script src="./assets/js/vendor.bundle.js"></script>
+  <script src="./assets/js/index.bundle.js"></script></body>
+
 </html>
